@@ -1,0 +1,21 @@
+.modal-entering {
+    opacity: 0;
+    transform: translateY(-20%);
+}
+
+.modal-entered {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.modal-exiting {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-exited {
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: opacity 300ms, transform 300ms;
+}
